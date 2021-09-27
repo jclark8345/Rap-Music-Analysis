@@ -12,6 +12,11 @@ Exploratory analysis of Rap/Hip-Hop Music Genre through the use of NLP and Machi
 ## Project Introduction
 
 ## File Directory
+ - featureAnalysis.py: 
+ - mainScrpit.py:
+ - popularityPrediction.py
+ - rap_1993-2019.csv:
+ - spotify_api.py: 
 
 ## Data
 
