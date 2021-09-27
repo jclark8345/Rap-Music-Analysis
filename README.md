@@ -26,6 +26,17 @@ Billboard Top 100 charts were found for the years 1993 to 2019 and equivalent Sp
 
 ## Results
 
+<p align = "center">
+    <img src = "https://github.com/jclark8345/Rap-Music-Analysis/raw/main/Plots/Fig.%202.png" width = "600"/>
+ </p>
+ 
+ 
+
+<p align = "center">
+    <img src = "https://github.com/jclark8345/Rap-Music-Analysis/blob/main/Plots/Table%201.png" width = "600"/>
+ </p>
+
+
 ## References
 
     - Ioffe, S., & Szegedy, C. (2015). Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. ArXiv:1502.03167 [Cs]. http://arxiv.org/abs/1502.03167 
