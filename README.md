@@ -11,6 +11,8 @@ Exploratory analysis of Rap/Hip-Hop Music Genre through the use of NLP and Machi
 
 ## Project Introduction
 
+The music industry as a whole and more recently, the rap/hip-hop genre, has consistently displayed a close tie with contemporary pop culture. Trends and relationships between this genre of music and song popularity have influence on many social and economic factors within the United States. Spotify and Genius API was used to extract audio/lyrical features of 2000+ popular songs in the years 1993 to 2019 as we look examine popularity related to rap/hip-hop music through the use of both exploratory analysis and machine learning techniques. Three algorithms were applied towards popularity classification and results indicated a general importance of track release and lyrical repetition in predicting song popularity. General trends of audience attention towards the recency of music was discovered and specific factors of this genre were examined in relationship to features within the data set.
+
 ## File Directory
     - featureAnalysis.py: 
     - mainScrpit.py:
@@ -19,6 +21,8 @@ Exploratory analysis of Rap/Hip-Hop Music Genre through the use of NLP and Machi
     - spotify_api.py: 
 
 ## Data
+
+Billboard Top 100 charts were found for the years 1993 to 2019 and equivalent Spotify playlists were found through novel search. [Spotipy] (https://github.com/plamere/spotipy/blob/master/LICENSE.md), a lightweight Python library for the [Spotify Web API] (https://developer.spotify.com/documentation/web-api/), was used to obtain full access to all of the music data provided by the Spotify platform based on the given Spotify playlist. This included artist and track data such as album title, track features, song duration and other audio features. Next, [Genius API] (https://docs.genius.com/) was used to extract song lyrics from Genius.com for each song within the data set using artist name and track title. Basic data preprocessing steps were applied to lyric data to obtain proper accounts of word frequency and lyric sentiment for each track.
 
 ## Results
 
