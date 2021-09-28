@@ -30,12 +30,14 @@ Billboard Top 100 charts were found for the years 1993 to 2019 and equivalent Sp
     <img src = "https://github.com/jclark8345/Rap-Music-Analysis/raw/main/Plots/Fig.%202.png" width = "600"/>
  </p>
  
+ The results of this feature selection are displayed in the Figure above. The total Gini Impurity for each feature are displayed as the size of the bars with the standard deviation each feature represented through the gray error bar. Examining the figure, there appears to be a large discrepancy between the importance of specific features and classification of song popularity.This Figure indicates the year in which the song was released and the proportion of unique words are most indicative of song popularity. It is important to note these features also show the largest amount of variation amongst all model features. Examination of this plot also raises some concerns about the target variable and relationship to audio/lyrical features of a song. The most important feature,year, is only semi-related to song attributes indicating a possible skew or underlying correlation between song popularity and year of song release. This factor points to a potential drop-off in continuous appreciation of older rap/hop-hop tracks amongst listeners and a greater focus on recent artists, music, and song releases.
  
 
 <p align = "center">
     <img src = "https://github.com/jclark8345/Rap-Music-Analysis/blob/main/Plots/Table%201.png" width = "600"/>
  </p>
 
+The machine learning algorithm with the highest recorded F1-score was tied between the Random Forest and Random Forest using Feature Selection (See Table above}. The Random Forest with feature selection minimizes model over fitting through the use of smaller set of features. Larger decision trees lose generalization capability due to being more specific to the training set. Thus, we determine the optimal model in terms of leveraging precision,recall, and over-fitting to be the Random Forest using feature selection. Moreover, amongst compared kernel, SVMs using an 'rbf' kernel achieved the highest precision, recall, and F1-score implying a non-linear relationship between the audio/lyrical features of a track and track popularity. General comparison of model performance, displayed in Table ~\ref{tab:results}, indicates no significant differences in popularity classification dependent on model choice. This is demonstrated by similar ranges of performance metrics. 
 
 ## References
 
