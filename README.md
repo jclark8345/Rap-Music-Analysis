@@ -14,11 +14,11 @@ Exploratory analysis of Rap/Hip-Hop Music Genre through the use of NLP and Machi
 The music industry as a whole and more recently, the rap/hip-hop genre, has consistently displayed a close tie with contemporary pop culture. Trends and relationships between this genre of music and song popularity have influence on many social and economic factors within the United States. Spotify and Genius API was used to extract audio/lyrical features of 2000+ popular songs in the years 1993 to 2019 as we look examine popularity related to rap/hip-hop music through the use of both exploratory analysis and machine learning techniques. Three algorithms were applied towards popularity classification and results indicated a general importance of track release and lyrical repetition in predicting song popularity. General trends of audience attention towards the recency of music was discovered and specific factors of this genre were examined in relationship to features within the data set.
 
 ## File Directory
-    - featureAnalysis.py: 
-    - mainScrpit.py:
-    - popularityPrediction.py
-    - rap_1993-2019.csv:
-    - spotify_api.py: 
+    - featureAnalysis.py: exploratory data analysis script using vizualization packages
+    - mainScript.py: data preprocessing including lyric cleaning,tokenization, and sentiment analysis
+    - popularityPrediction.py: use of different ML methos to predict song popularity
+    - rap_1993-2019.csv: dataframe of 2000+ songs from 1993-2019 with 15+ song/lyrical features
+    - spotify_api.py: create dataframe on user chosen Spotify Playlists and save to .csv file
 
 ## Data
 
